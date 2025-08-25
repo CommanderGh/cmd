@@ -16,7 +16,7 @@ elif choice == "Register":
     register()
 
 elif choice == "Login":
-    user = login() if
+    user = login() 
     if user:
         st.success(f"Logged in as {user['username']}!")
         
@@ -43,3 +43,4 @@ elif choice == "Login":
 elif choice == "Admin":
     import admin
     admin.dashboard()
+
